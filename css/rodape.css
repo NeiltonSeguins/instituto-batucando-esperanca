@@ -1,0 +1,25 @@
+.rodape{
+  width: 360px;
+  height: 80px;
+  text-align: center;
+  background: linear-gradient(45deg, #BF1260, #19597C);
+}
+
+.rodape__icones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.rodape__copyright{
+  font-size: 0.5rem;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  color: #ffffff;
+}
+
+.facebook__icon, .instagram__icon{
+  margin-right: 1rem;
+  color: #ffffff;
+}

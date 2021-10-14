@@ -1,0 +1,25 @@
+.cabecalho{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+/* Para versão mobile não aparece. Ajeitar depois*/
+.menu{
+  display: none;
+}
+
+.botao__cabecalho{
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.burger__icon{
+  width: 20px;
+  height: 20px;
+  font-size: 2rem;
+}
