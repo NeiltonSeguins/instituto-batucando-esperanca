@@ -108,6 +108,8 @@
         color: #ffffff;
     }
 
+    
+
     /* Parceiros */
     .parceiros{
         width: 100%;
@@ -119,7 +121,7 @@
     .parceiros__title h1{
         font-size: 48px;
         font-weight: bold;
-        
+
     }
 
     /* contato */
