@@ -108,6 +108,19 @@
         color: #ffffff;
     }
 
+    /* Parceiros */
+    .parceiros{
+        width: 100%;
+        height: 300px;
+    }
+    .parceiros__title{
+        text-align: center;
+    }
+    .parceiros__title h1{
+        font-size: 48px;
+        font-weight: bold;
+        
+    }
 
     /* contato */
     .contato{
