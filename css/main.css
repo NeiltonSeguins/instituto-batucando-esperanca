@@ -1,0 +1,111 @@
+/* mobile first */
+
+
+/* pc */
+
+@media only screen and (min-width: 768px){
+
+
+
+    /* Contato */
+    .ajudar{
+        width: 976px;
+        height: 661px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .title h2{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58,41px;
+        text-align: center;
+    }
+    .title p{
+        font: normal 400 20px;
+        text-align: center;
+        color: #282828;
+    }
+
+    .content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 135px;
+    }
+    .content__ajuda{
+        width: 50%;
+        height: 100%;
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .content__ajuda h3{
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .content__list{
+        display: flex;
+        align-content: center;
+
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+
+        font-size: 20px;
+        line-height: normal;
+    }
+    .content__ajuda p{
+        margin: 0;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .content_ajuda_icon{
+        width: 30px;
+        margin-right: 10px;
+    }
+    .content__form{
+        width: 50%;
+    }
+    .content__form form label{
+        display: block;
+        font-size: 1rem;
+        padding-top: 20px;
+
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .content__form form label:nth-child(1){
+        padding: 0;
+    }
+    .content__form form input{
+        display: block;
+        width: 90%;
+        height: 35px;
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid #BF1260;
+    }
+    .content__enviar{
+        width: 179px;
+        padding: 18px;
+        margin-top: 59px;
+
+        border: none;
+        border-radius: 8px;
+        background-color: #BF1260;
+
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+}
