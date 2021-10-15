@@ -17,29 +17,30 @@
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
     <!--CABEÇALHO - Neilton-->
     <header class="cabecalho">
-            <div class="logo">
-                <img src="./img/logo.svg" alt="logotipo do instituto Batucando Esperança">
-            </div>
-            
-            <button class="botao__cabecalho" type="button" data-toggle="collapse" data-target="#navbar">
-                <i class="uil uil-bars burger__icon"></i>
-            </button>
+        <div class="logo">
+            <img src="./img/logo.svg" alt="logotipo do instituto Batucando Esperança">
+        </div>
 
-            <nav class="menu" id="navbar">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" href="#inicio">Início</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#quem-somos">Quem Somos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#projetos">Projetos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#batuqueiros">Batuqueiros</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+        <button class="botao__cabecalho" type="button" data-toggle="collapse" data-target="#navbar">
+            <i class="uil uil-bars burger__icon"></i>
+        </button>
+
+        <nav class="menu" id="navbar">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link" href="#inicio">Início</a></li>
+                <li class="menu__item"><a class="menu__link" href="#quem-somos">Quem Somos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#projetos">Projetos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#batuqueiros">Batuqueiros</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -224,36 +225,46 @@
 
         <!--SESSÂO COMO AJUDAR Kelvyn-->
         <section class="ajudar">
-            <div>
-                <div>
+            <div class="container">
+                <div class="title">
                     <h2>COMO AJUDAR?</h2>
                     <p>Se quiser ajudar entre em contato conosco.</p>
                 </div>
-                <div>
-                    <h3>Ficou interessado em ajudar?</h3>
+                <div class="content">
+                    <div class="content__ajuda">
+                        <h3>Ficou interessado em ajudar?</h3>
 
-                    <li>Doações de instrumentos</li>
-                    <li>Sendo voluntário</li>
-                    <li>Outra forma</li>
+                        <ul>
+                            <li class="content__list">
+                                <img class="content_ajuda_icon" src="./img/icons/ajudar.svg">
+                                Doações de instrumentos
+                            </li>
+                            <li class="content__list">
+                                <img class="content_ajuda_icon" src="./img/icons/ajudar.svg">
+                                Sendo voluntário
+                            </li>
+                            <li class="content__list">
+                                <img class="content_ajuda_icon" src="./img/icons/ajudar.svg">
+                                Outra forma
+                            </li>
+                        </ul>
 
-                    <p>
-                        Entre em contato com a gente que vamos estar
-                        lhe passando todas as informações.
-                    </p>
-                </div>
-                <div>
-                    <form action="#enviar-formulario">
-                        <label for="">Nome:</label>
-                        <input type="text" name="name">
+                        <p>
+                            Entre em contato com a gente que vamos estar
+                            lhe passando todas as informações.
+                        </p>
+                    </div>
+                    <div class="content__form">
+                        <form action="#enviar-formulario">
+                            <label>Nome:<input type="text" name="name" required /></label>
 
-                        <label for="">Email:</label>
-                        <input type="email" name="email">
+                            <label>Email:<input type="email" required name="email"></label>
 
-                        <label for="">Numero:</label>
-                        <input type="number" name="number">
+                            <label>Numero: <input type="number" name="number" required></label>
 
-                        <input type="submit">
-                    </form>
+                            <button class="content__enviar" type="submit">Enviar</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -285,18 +296,20 @@
                     <p>(98) 3333-3333</p>
                 </div>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8985292945104!2d-44.25293638524412!3d-2.5399670981492366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMzInMjMuOSJTIDQ0wrAxNScwMi43Ilc!5e0!3m2!1spt-BR!2sbr!4v1634230331555!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8985292945104!2d-44.25293638524412!3d-2.5399670981492366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMzInMjMuOSJTIDQ0wrAxNScwMi43Ilc!5e0!3m2!1spt-BR!2sbr!4v1634230331555!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-        </section>
+            </section>
     </main>
 
     <!--RODAPÉ - Neilton-->
     <footer class="rodape">
         <div class="rodape__icones">
-            <a href="#"><img class="facebook__icon"" src="./img/icons/facebook-icon.svg" alt=""></a>
-            <a href="#"><img class="instagram__icon"" src="./img/icons/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="twitter__icon"" src="./img/icons/twitter-icon.svg" alt=""></a>
+            <a href="#"><img class="facebook__icon" src="./img/icons/facebook-icon.svg" alt=""></a>
+            <a href="#"><img class="instagram__icon" src="./img/icons/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="twitter__icon" src="./img/icons/twitter-icon.svg" alt=""></a>
         </div>
         <div class="rodape__copyright">
             <p>© Copyright “nome da equipe”. All Rights Reserved</p>
