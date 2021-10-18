@@ -1,0 +1,61 @@
+.container__background {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.background__hero {
+    background: linear-gradient(112.47deg, #18648E 35.74%, #C80BCA 109%);
+    left: -128px;
+    height: 377px;
+    top: 71px;
+}
+
+.imagem__background {
+    background-image: url(../img/bg-secao-hero.jpeg);
+    background-size: cover;
+    height: 100%;
+    left: -40px;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 145%);
+    width: 100%;
+}
+
+.descricao__background {
+    position: absolute;
+    margin: 5px 15px;
+    text-align: justify;
+    top: 135px;
+}
+
+.descricao__background h1 {
+    font-size: 1.5em;
+    margin: 24px 0px;
+}
+
+.botao__video {
+    background: #BF1260;
+    border: solid #BF1260;
+    border-radius: 6.25px;
+    display: flex;
+    height: 36.5px;
+    margin: 0px 15px;
+    position: absolute;
+    top: 350px;
+    width: 143.73px;
+    justify-content: center;
+}
+
+.play__video {
+    font-size: 14.4906px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link_play {
+    padding: 0px 5px;
+}
