@@ -1,1 +1,13 @@
-.container__projeto {}
+.container__projeto {
+    height: 506px;
+    width: auto;
+    top: 1465px;
+    background: linear-gradient( 112.47deg, #18648E 35.74%, #C80BCA 109%);
+}
+
+.slide__box {
+    background-size: cover;
+    height: 85%;
+    width: 100vw;
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 145%);
+}
