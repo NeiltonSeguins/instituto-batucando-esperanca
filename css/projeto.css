@@ -1,6 +1,6 @@
 .container__projeto {
     height: 55vh;
-    width: auto;
+    width: 100vw;
     background: linear-gradient( 112.47deg, #18648E 35.74%, #C80BCA 109%);
 }
 
@@ -8,4 +8,19 @@
     background-size: cover;
     width: 100%;
     -webkit-mask-image: linear-gradient(to top, transparent 3%, black 145%);
+}
+
+.slide__box-projeto {
+    background-size: cover;
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 96%);
+}
+
+.texto__projeto {
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    top: 235px;
+    text-align: center;
+    width: 100vw;
 }
