@@ -1,0 +1,22 @@
+.batuqueiros {
+    margin: 50px 0px;
+}
+
+.borda__batuqueiros {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 11px 2px rgba(0, 0, 0, 0.1), -4px -4px 11px 2px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    width: 310px;
+    height: 445px;
+}
+
+.box__imagem-batuqueiros {
+    max-width: 309px;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.imagem__batuqueiros {
+    background-size: cover;
+    width: 100%;
+}

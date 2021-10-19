@@ -4,12 +4,6 @@
     background: linear-gradient( 112.47deg, #18648E 35.74%, #C80BCA 109%);
 }
 
-.slide__box {
-    background-size: cover;
-    width: 100%;
-    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 145%);
-}
-
 .slide__box-projeto {
     background-size: cover;
     width: 100%;
