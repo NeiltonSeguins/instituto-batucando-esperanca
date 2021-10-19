@@ -1,0 +1,24 @@
+.sombra__secao {
+    color: #282828;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    opacity: 12%;
+}
+
+.titulo__secao {
+    color: #282828;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    top: -25px;
+    position: relative;
+}
+
+.pilares {
+    color: #282828;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    top: -30px;
+}

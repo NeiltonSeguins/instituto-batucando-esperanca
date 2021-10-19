@@ -2,19 +2,25 @@
     margin: 50px 0px;
 }
 
-.sombra__secao {
-    color: #282828;
-    font-size: 32px;
-    line-height: 39px;
-    text-align: center;
-    opacity: 12%;
+.borda__sobre {
+    border: 1px solid rgba(40, 40, 40, 0.5);
+    border-radius: 5px;
+    height: 241px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 10px 18px;
+    width: 312px;
 }
 
-.titulo__secao {
-    color: #282828;
-    font-size: 25px;
-    line-height: 39px;
+.titulo__sobre {
+    color: #BF1260;
+    font-weight: 800;
+    font-size: 26px;
+    padding: 18px 0px;
     text-align: center;
-    top: -25px;
-    position: relative;
+}
+
+.texto__sobre {
+    color: #282828;
+    font-weight: 500;
 }
