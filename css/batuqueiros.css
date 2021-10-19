@@ -7,7 +7,7 @@
     box-shadow: 4px 4px 11px 2px rgba(0, 0, 0, 0.1), -4px -4px 11px 2px rgba(0, 0, 0, 0.1);
     margin: 30px auto;
     width: 310px;
-    height: 445px;
+    height: 420px;
 }
 
 .box__imagem-batuqueiros {
@@ -19,4 +19,19 @@
 .imagem__batuqueiros {
     background-size: cover;
     width: 100%;
+}
+
+.titulo_batuqueiros {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.texto__batuqueiros {
+    font-size: 24px;
+    margin: 10px 15px;
+}
+
+.descricao__batuqueiros {
+    font-size: 17px;
+    font-weight: 500;
 }
