@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <title>Instituto Batucando Esperança</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/normalize.css">
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/secao.css">
     <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/projeto.css">
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/rodape.css">
@@ -111,35 +113,66 @@
                 </div>
                 <p class="pilares">Nossos pilares de transformação</p>
 
-                <div class="container__projeto">
+                <!-- <div class="container__projeto">
                     <img id="image" class="slide__box" alt="imagem-fundo">
-                </div>
-                <h3>Nutrindo a esperança</h3>
-                <p>
-                    Acompanhamento nutricional e criação do cardápio do lanchinho semanal
-                </p>
+                    <div>
+                        <h1>TESTE</h1>
 
-                <div>
+                    </div>
+                </div> -->
 
-                    <h3>Cuidado Solidário</h3>
-                    <p>
-                        Consultas pediátricas para um desenvolvimento mais saudável
-                    </p>
-                </div>
-                <div>
+                <article class="c-carousel c-carousel--simple">
+                    <div class="c-carousel__slides js-carousel--simple">
+                        <article class="c-carousel__slide">
+                            <div style="width: 100vw;">
+                                <img src="./img/nutrindo-esperança.JPG" alt="" class="src slide__box">
+                            </div>
+                            <div class="algo">
+                                <h3>Nutrindo a esperança</h3>
+                                <p>
+                                    Acompanhamento nutricional e criação do cardápio do lanchinho semanal
+                                </p>
+                            </div>
+                        </article>
 
-                    <h3>Um sorriso por mais esperança</h3>
-                    <p>
-                        Acompanhamento nutricional e criação do cardápio do lanchinho semanal
-                    </p>
-                </div>
-                <div>
+                        <article class="c-carousel__slide">
+                            <div style="width: 100vw;">
+                                <img src="./img/cuidado-solidário.JPG" alt="" class="src">
+                            </div>
+                            <div class="algo">
+                                <h3>Cuidado Solidário</h3>
+                                <p>
+                                    Consultas pediátricas para um desenvolvimento mais saudável
+                                </p>
+                            </div>
+                        </article>
 
-                    <h3>Papo de mulher</h3>
-                    <p>
-                        Roda de conversa para valorização e confraternização com as mães dos batuqueiros
-                    </p>
-                </div>
+                        <article class="c-carousel__slide">
+                            <div style="width: 100vw;">
+                                <img src="./img/solidarite.jpeg" alt="" class="src">
+                            </div>
+                            <div class="algo">
+                                <h3>Um sorriso por mais esperança</h3>
+                                <p>
+                                    Acompanhamento nutricional e criação do cardápio do lanchinho semanal
+                                </p>
+                            </div>
+                        </article>
+                        <article class="c-carousel__slide">
+                            <div style="width: 100vw;">
+                                <img src="./img/canto-coral.jpg" alt="" class="src">
+                            </div>
+                            <h3>Papo de mulher</h3>
+                            <p>
+                                Roda de conversa para valorização e confraternização com as mães dos batuqueiros
+                            </p>
+                        </article>
+                    </div>
+                    <div class="js-carousel--simple-dots" role="tablist"></div>
+                </article>
+
+
+
             </div>
         </section>
 
@@ -274,6 +307,10 @@
             </div>
             </section>
             <script src="./js/app_fotos.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+            <script src="./js/app_slide.js"></script>
+
     </main>
 
     <!--RODAPÉ - Neilton-->

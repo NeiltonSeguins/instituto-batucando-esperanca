@@ -1,3 +1,7 @@
+.body {
+    overflow-x: hidden;
+}
+
 .sombra__secao {
     color: #282828;
     font-size: 32px;
