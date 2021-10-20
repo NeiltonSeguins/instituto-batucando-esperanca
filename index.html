@@ -34,7 +34,7 @@
             <img src="./img/logo.svg" alt="logotipo do instituto Batucando Esperança">
         </div>
 
-        <button class="botao__cabecalho" type="button" data-toggle="collapse" data-target="#navbar">
+        <button class="botao__cabecalho" type="button" data-toggle="collapse" onclick="navbar()" data-target="#navbar">
             <i class="uil uil-bars burger__icon"></i>
         </button>
 
@@ -282,9 +282,9 @@
 
                             <label>Email:<input type="email " required name="email "></label>
 
-                            <label>Numero: <input type="number " name="number " required></label>
+                            <label>Numero: <input type="number" name="number " required></label>
                             <div class="content__button">
-                                <button class="content__enviar " type="submit ">Enviar</button>
+                                <button class="content__enviar" type="reset">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -336,11 +336,7 @@
                     style="border:0; " allowfullscreen=" " loading="lazy " class="contato__iframe___mapa "></iframe>
             </div>
             </section>
-            <script src="./js/app_fotos.js "></script>
-
-            <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js "></script>
-            <script src="./js/app_slide.js "></script>
-
+            
     </main>
 
     <!--RODAPÉ - Neilton-->
@@ -354,6 +350,12 @@
             <p>© Copyright “nome da equipe”. All Rights Reserved</p>
         </div>
     </footer>
+    <!--SCRIPTS-->
+    <script src="./js/app_fotos.js "></script>
+    <script src="./js/main.js "></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js "></script>
+    <script src="./js/app_slide.js "></script>
 
 </body>
 
