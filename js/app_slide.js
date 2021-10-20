@@ -10,3 +10,4 @@ new Glider($simpleCarousel, {
         next: ".js-carousel--simple-next",
     },
 });
+
