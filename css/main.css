@@ -75,7 +75,6 @@
         max-width: 500px;
         height: 358px;
         margin-top: 51px;
-    
     }
     .content__form form label{
         display: block;
@@ -264,6 +263,7 @@
     }
     .content__form{
         width: 50%;
+        margin-top: 0;
     }
     .content__form form label{
         display: block;
