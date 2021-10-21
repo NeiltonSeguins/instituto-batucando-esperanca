@@ -1,3 +1,4 @@
+
 /* mobile first */
 .container{
     margin: 21px 0;
@@ -6,7 +7,6 @@
 .ajudar{
     width: 100%;
     height: auto;
-    margin: 0 auto;
 }
 
 .title{
@@ -30,7 +30,7 @@
     text-align: center;
     color: #282828;
 }
-.content{
+.content__ajuda__prima{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -63,6 +63,7 @@
     font-weight: 400;
     line-height: 19.5px;
     text-align: left;
+    max-width: 443px;
 }
 .content_ajuda_icon{
     width: 30px;
@@ -90,7 +91,7 @@
 }
 .content__form form input{
     display: block;
-    width: 306px;
+    width: 95%;
     height: 35px;
     padding: 5px;
     border: none;
@@ -149,7 +150,7 @@
     mix-blend-mode: multiply;
     background-size: cover;
     position: absolute;
-    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
+    /* -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%); */
     filter: brightness(90%);
     width: 100vw;
     height: 100%;
@@ -190,16 +191,33 @@
     margin-right: 4px;
 }
 
-/* tablet */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 764px){
+    .content__ajuda__prima{
+        width: 100%;
+        margin: 0 117px;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .content__form{
+        width: auto;
+    }
+
+    .parceiros__logo{
+        flex-direction: row;
+        margin: 0 auto;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 1024px){
     /* Ajudar*/
     .ajudar{
-        width: 100vw;
-        height: 100vh;
-        margin: 0 auto;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
     .title{
         display: flex;
         flex-direction: column;
@@ -225,26 +243,33 @@
         max-width: 100vh;
     }
 
-    .content{
+    .content__ajuda__prima{
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        margin-top: 32px;
+        margin: 0;
     }
     .content__ajuda{
-        width: 70%;
-        height: 100%;
+        width: 100%;
+        margin: 0;
         align-self: flex-start;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        margin-left: 64px;
+    }
+
+    .content__ajuda__div{
+        margin-right: 50px;
+    }
+
+    .content__ajuda ul{
+        margin-top: 20px;
     }
 
     .content__ajuda h3{
-        font-size: 32px;
-        font-weight: bold;
+        text-align: left;
+        font-size: 28px;
+        font-weight: 700;
     }
 
     .content__list{
@@ -259,7 +284,9 @@
         line-height: normal;
     }
     .content__ajuda p{
+        width: 100%;
         margin: 0;
+        margin-top: 20px;
         font-size: 18px;
         font-weight: normal;
     }
@@ -271,7 +298,7 @@
         margin-right: 10px;
     }
     .content__form{
-        width: 50%;
+        width: 476px;
         margin-top: 0;
     }
     .content__form form label{
@@ -287,7 +314,7 @@
     }
     .content__form form input{
         display: block;
-        width: 90%;
+        width: 100%;
         height: 35px;
         padding: 5px;
         border: none;
@@ -311,21 +338,12 @@
         color: #ffffff;
     }
 
-    
-
     /* Parceiros */
     .parceiros{
         width: 100%;
         height:380px;
-        margin-top: 0;
     }
-    /* .parceiros__title{
-        text-align: center;
-    }
-    .parceiros__title h1{
-        font-size: 48px;
-        font-weight: bold;
-    } */
+   
     .parceiros__logo{
         flex-direction: row;
     }
@@ -350,10 +368,11 @@
         background-image: url(../img/bg-secao-localizacao.jpeg);
         mix-blend-mode: multiply;
         background-size: cover;
+        background-repeat: no-repeat;
         position: absolute;
         -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
         filter: brightness(90%);
-        width: 100vw;
+        width: 100%;
         height: 100%;
         margin: 0;
     }
