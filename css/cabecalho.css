@@ -8,8 +8,42 @@
 }
 
 /* Para versão mobile não aparece. Ajeitar depois*/
-.menu{
+#navbar{
   display: none;
+}
+
+.menu{
+  position: fixed;
+  left: calc(360px - 150px);
+  top: 0;
+  height: 100%;
+  width: 150px;
+  background-color: #fff;
+  box-shadow: 4px 4px 11px 2px rgba(0, 0, 0, 0.1), -4px -4px 11px 2px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding-top: 48px;
+  overflow-x: hidden;
+}
+
+.menu__link{
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #282828;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  display: block;
+}
+
+.menu .close__menu{
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  margin-left: 64px;
+}
+
+.times{
+  font-size: 3rem;
 }
 
 .botao__cabecalho{

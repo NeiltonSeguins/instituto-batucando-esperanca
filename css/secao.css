@@ -10,13 +10,14 @@
     opacity: 12%;
 }
 
-.titulo__secao {
+.titulo__secao{
     color: #282828;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 39px;
     text-align: center;
     top: -25px;
     position: relative;
+    font-weight: normal;
 }
 
 .pilares {
@@ -25,4 +26,5 @@
     position: relative;
     text-align: center;
     top: -30px;
+    font-weight: normal;
 }

@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/rodape.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/intitucional.css">
 </head>
 
 <body>
@@ -34,24 +35,25 @@
             <img src="./img/logo.svg" alt="logotipo do instituto Batucando Esperança">
         </div>
 
-        <button class="botao__cabecalho" type="button" data-toggle="collapse" onclick="navbar()" data-target="#navbar">
+        <button class="botao__cabecalho" type="button" data-toggle="collapse" onclick="openMenu()" data-target="#navbar">
             <i class="uil uil-bars burger__icon"></i>
         </button>
 
         <nav class="menu" id="navbar">
             <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link" href="#inicio">Início</a></li>
-                <li class="menu__item"><a class="menu__link" href="#quem-somos">Quem Somos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#projetos">Projetos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#batuqueiros">Batuqueiros</a></li>
-                <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
+                <li class="menu__item"><a class="menu__link close__menu times" href="#" onclick="closeMenu()">&times;</a></li>
+                <li class="menu__item"><a class="menu__link" href="#inicio" onclick="closeMenu()">Início</a></li>
+                <li class="menu__item"><a class="menu__link" href="#quem-somos" onclick="closeMenu()"">Quem Somos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#projetos" onclick="closeMenu()">Projetos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#batuqueiros" onclick="closeMenu()">Batuqueiros</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contato" onclick="closeMenu()">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!--SESSÂO INICIAL Beatriz-->
-        <section class="hero">
+        <section class="hero" id="inicio">
             <div>
                 <div class="container__background">
                     <div class="background__hero">
@@ -65,14 +67,14 @@
                         </p>
                     </div>
                     <div class="botao__video">
-                        <a href="" class="play__video"><i class="uil uil-play-circle link_play"></i>Ver vídeo</a>
+                        <a href="#video" class="play__video"><i class="uil uil-play-circle link_play"></i>Ver vídeo</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--SESSÂO QUEM SOMOS Beatriz-->
-        <section class="sobre">
+        <section class="sobre" id="quem-somos">
             <div>
                 <div class="sombra__secao">
                     <h2>QUEM SOMOS</h2>
@@ -103,7 +105,7 @@
         </section>
 
         <!--SESSÂO NOSSOS PROJETOS Beatriz-->
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <div>
                 <div class="sombra__secao">
                     <h2>PROJETOS</h2>
@@ -179,13 +181,13 @@
         </section>
 
         <!--SESSÃO NOSSOS BATUQUEIROS Beatriz-->
-        <section class="batuqueiros ">
+        <section class="batuqueiros" id="batuqueiros">
             <div>
                 <div class="sombra__secao">
                     <h2>BATUQUEIROS</h2>
                 </div>
                 <div class="titulo__secao">
-                    <h2>Nossos batuqueiros</h2>
+                    <h2>Batuqueiros</h2>
                 </div>
                 <p class="pilares">Nossos alunos</p>
 
@@ -239,29 +241,33 @@
         </section>
 
         <!--SESSÂO VEJA O VIDEO Beatriz-->
-        <section class="institucional ">
-            <div>
-                <!-- <video src="" class="video__intitucional"></video> -->
-                <figure class="bg__video"></figure>
-                <div>
+        <section class="institucional" id="video">
+            <!-- <video src="" class="video__intitucional"></video> -->
+            <div class="institucional__container">
+                <div class="institucional__thumb">
+                    <figure class="thumb__video"></figure>
+                </div>
+                <div class="institucional__texto">
                     <a href=" "><i class="uil uil-play-circle "></i></a>
                     <h2>VEJA O VÍDEO</h2>
                     <p>
-                        Os tios ensinam música popular brasileira e maranhense através de instrumentos percussivos
+                        Os tios ensinam música popular brasileira e maranhense através deinstrumentospercussivos
                     </p>
                 </div>
             </div>
         </section>
 
         <!--SESSÂO COMO AJUDAR Kelvyn-->
-        <section class="ajudar "> 
-            <div class="container ">
-                <div class="title ">
-                    <h2>COMO AJUDAR?</h2>
-                    <p class="title__paragrafo">Se quiser ajudar entre em contato conosco.</p>
-                    <p class="title__paragrafo__secundario">Saiba como ajudar</p>  <!-- mobile first  -->
+        <section class="ajudar"> 
+            <div class="container">
+                <div class="title">
+                    <div class="sombra__secao">
+                        <h2>AJUDAR</h2>
+                    </div>
+                    <h3 class="titulo__secao">Como ajudar?</h3>
+                    <p class="pilares">Saiba como ajudar</p>  <!-- mobile first  -->
                 </div>
-                <div class="content ">
+                <div class="content">
                     <div class="content__ajuda ">
                         <h3>Ficou interessado em ajudar?</h3>
 
@@ -287,9 +293,9 @@
 
                             <label>Email:<input type="email " required name="email "></label>
 
-                            <label>Numero: <input type="number" name="number " required></label>
+                            <label>Telefone: <input type="number" name="number " required></label>
                             <div class="content__button">
-                                <button class="content__enviar" type="reset">Enviar</button>
+                                <button class="content__enviar" type="submit">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -298,7 +304,7 @@
         </section>
 
         <!--SESSÂO PARCEIROS Kelvyn-->
-        <section class="parceiros ">
+        <section class="parceiros">
             <div class="parceiros__content ">
                 <div class="sombra__secao">
                     <h2>PARCEIROS</h2>
@@ -320,7 +326,8 @@
 
         <!--SESSÂO CONTATO Kelvyn-->
         <!-- Adicionar a imagem de bg no CSS -->
-        <sectionc class="contato ">
+        <section class="contato" id="contato">
+            <figure class="contato__imagem"></figure>
             <div class="contato__endereco ">
                 <div class="contato__endereco___inf ">
                     <h3><i class="uil uil-map-marker "></i>Endereço:</h3>
@@ -340,7 +347,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8985292945104!2d-44.25293638524412!3d-2.5399670981492366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMzInMjMuOSJTIDQ0wrAxNScwMi43Ilc!5e0!3m2!1spt-BR!2sbr!4v1634230331555!5m2!1spt-BR!2sbr "
                     style="border:0; " allowfullscreen=" " loading="lazy " class="contato__iframe___mapa "></iframe>
             </div>
-            </section>
+        </section>
             
     </main>
 
@@ -357,7 +364,7 @@
     </footer>
     <!--SCRIPTS-->
     <script src="./js/app_fotos.js "></script>
-    <script src="./js/main.js "></script>
+    <script src="./js/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js "></script>
     <script src="./js/app_slide.js "></script>

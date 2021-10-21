@@ -1,0 +1,41 @@
+.institucional__container{
+  background: linear-gradient(112.47deg, #18648E 35.74%, #C80BCA 130%);
+  mix-blend-mode: multiply;
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.institucional__thumb{
+  background-image: url(../img/bg-secao-video.JPG);
+  background-size: cover;
+  position: absolute;
+  -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
+  filter: brightness(80%);
+  width: 100vw;
+  height: 273px;
+  margin: 0;
+}
+
+.institucional__texto{
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.institucional__texto h2{
+  font-size: 2rem;
+}
+
+.institucional__texto p{
+  font-size: 14px;
+  margin: 16px 24px;
+}
+
+.institucional__texto .uil-play-circle{
+  color: #ffffff;
+  font-size: 5rem;
+}
