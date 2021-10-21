@@ -39,3 +39,15 @@
   color: #ffffff;
   font-size: 5rem;
 }
+
+@media  only screen and (min-device-width: 768px){    
+  .institucional__container{
+    height: 65vh;
+  }
+  .institucional__thumb{
+    height: 354px;
+  }
+  .institucional__texto p{
+    font-size: 1rem;
+  }
+}

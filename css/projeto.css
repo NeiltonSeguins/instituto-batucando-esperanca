@@ -2,7 +2,7 @@
     background: linear-gradient(112.47deg, #18648E 35.74%, #C80BCA 130%);
     mix-blend-mode: multiply;
     height: 560px;
-    width: 360px;
+    width: 100vw;
 }
 
 .img1{
@@ -72,4 +72,8 @@
 
 .texto__projeto p{
     font-size: 20px;
+}
+
+@media  only screen and (min-device-width: 768px){    
+    
 }

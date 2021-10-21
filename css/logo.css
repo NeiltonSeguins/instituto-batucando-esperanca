@@ -2,3 +2,10 @@
   width: 84px;
   height: 37px;
 }
+
+@media  only screen and (min-device-width: 768px){
+  .logo{
+    width: 125px;
+    height: 55.06px;
+  }
+}

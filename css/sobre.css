@@ -34,3 +34,18 @@
     font-size: 1.75rem;
     margin-right: 4px;
 }
+
+@media  only screen and (min-device-width: 768px){    
+    .sobre__cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 21px 40px;align-content: center;
+    }
+
+    .borda__sobre {
+        margin: 0 16px 16px 0;
+    }
+    
+}

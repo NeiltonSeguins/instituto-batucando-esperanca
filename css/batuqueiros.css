@@ -17,7 +17,6 @@
 }
 
 .imagem__batuqueiros {
-    background-size: cover;
     width: 100%;
 }
 
@@ -34,4 +33,12 @@
 .descricao__batuqueiros {
     font-size: 17px;
     font-weight: 500;
+}
+
+@media  only screen and (min-device-width: 768px){    
+    .batuqueiros__conteudo{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 48px;
+    }
 }
