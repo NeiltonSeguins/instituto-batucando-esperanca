@@ -1,20 +1,77 @@
 .container__projeto {
-    height: 55vh;
-    width: 100vw;
-    background: linear-gradient( 112.47deg, #18648E 35.74%, #C80BCA 109%);
+    background: linear-gradient(112.47deg, #18648E 35.74%, #C80BCA 130%);
+    filter: opacity(90%);
+    mix-blend-mode: multiply;
+    filter: brightness(60%);
+    height: 560px;
+    width: 360px;
 }
 
-.slide__box-projeto {
+.img1{
+    background-image: url(../img/nutrindo-esperança.JPG);
     background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
     width: 100%;
-    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 96%);
+    height: 100vh;
+}
+.img2{
+    background-image: url(../img/cuidado-solidário.JPG);
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
+    width: 100%;
+    height: 100vh;
+}
+.img3{
+    background-image: url(../img/cuidado-solidário.JPG);
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
+    width: 100%;
+    height: 100vh;
+}
+.img4{
+    background-image: url(../img/solidarite.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
+    width: 100%;
+    height: 100vh;
+}
+.img5{
+    background-image: url(../img/solidarite.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
+    width: 100%;
+    height: 100vh;
 }
 
 .texto__projeto {
     color: #FFFFFF;
     line-height: 25px;
     position: absolute;
-    top: 235px;
-    text-align: center;
-    width: 100vw;
+    top: 370px;
+    text-align: left;
+    width: 311px;
+    margin-left: 24px;
+}
+
+.texto__projeto h3{
+    font-size: 24px;
+}
+
+.texto__projeto p{
+    font-size: 20px;
 }

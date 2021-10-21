@@ -1,14 +1,12 @@
 .container__background {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 1.05rem;
     color: #FFFFFF;
 }
 
 .background__hero {
-    background: linear-gradient(112.47deg, #18648E 35.74%, #C80BCA 109%);
+    background: linear-gradient(112.47deg, #18648E 35.74%, #C80BCA 130%);
+    mix-blend-mode: multiply;
+    filter: brightness(60%);
     left: -128px;
     height: 377px;
     top: 71px;
@@ -20,20 +18,25 @@
     height: 100%;
     left: -40px;
     position: relative;
-    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 145%);
+    -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
     width: 100%;
 }
 
 .descricao__background {
     position: absolute;
-    margin: 5px 15px;
-    text-align: justify;
-    top: 135px;
+    margin: 0 24px;
+    text-align: left;
+    top: 7.6875rem;
 }
 
-.descricao__background h1 {
+.descricao__background h1{
     font-size: 1.5em;
-    margin: 24px 0px;
+    margin: 24px 0;
+    line-height: 1.7rem;
+}
+
+.descricao__background p{
+    font-size: 1rem;
 }
 
 .botao__video {
@@ -42,7 +45,7 @@
     border-radius: 6.25px;
     display: flex;
     height: 36.5px;
-    margin: 0px 15px;
+    margin: 16px 0 0 24px;
     position: absolute;
     top: 350px;
     width: 143.73px;
@@ -50,12 +53,17 @@
 }
 
 .play__video {
-    font-size: 14.4906px;
-    line-height: 38px;
+    font-size: 0.9rem;
+    line-height: 2.375;
     color: #FFFFFF;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.link_play {
-    padding: 0px 5px;
+.uil-play-circle {
+    font-size: 2rem;
+    margin-right: 4px;
 }
+

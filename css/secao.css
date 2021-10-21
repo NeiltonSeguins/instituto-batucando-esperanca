@@ -4,15 +4,15 @@
 
 .sombra__secao {
     color: #282828;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     text-align: center;
     opacity: 12%;
 }
 
 .titulo__secao {
     color: #282828;
-    font-size: 25px;
+    font-size: 1.5rem;
     line-height: 39px;
     text-align: center;
     top: -25px;
