@@ -140,6 +140,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -156,8 +158,7 @@
 }
 .contato__endereco{
     position: relative;
-    width: 40%;
-    margin-left: 40px;
+    width: 90%;
 }
 .contato__endereco i,.contato__endereco h3{
     font-size: 24px;
@@ -175,13 +176,13 @@
     font-weight: normal;
 }
 .contato__iframe{
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contato__iframe___mapa{
-    width: 400px;
+    width: 100vw;
     height: 280px;
     position: relative;
 }
@@ -190,7 +191,28 @@
     margin-right: 4px;
 }
 
-@media only screen and (min-width: 764px){
+@media only screen and (min-width: 768px){
+    .contato{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contato__endereco{
+        width: 40%;
+        margin-left: 12px;
+        margin-right: 16px;
+    }
+
+    .contato__iframe{
+        width: 60%;
+    }
+
+    .contato__iframe___mapa{
+        width: 400px;
+        height: 280px;
+    }
+
     .content__ajuda__prima{
         width: 100%;
         margin: 0;
