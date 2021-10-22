@@ -92,3 +92,33 @@
     }
 }
 
+@media  only screen and (min-device-width: 1024px){    
+    .descricao__background{
+        width: 60%;
+        margin-top: 137px;
+        margin-left: 120px;
+    }
+
+    .descricao__background h1{
+        font-size: 48px;
+        margin: 24px 0;
+        line-height: 1.7rem;
+        margin-bottom: 3rem;
+    }
+    
+    .descricao__background p{
+        font-size: 24px;
+        width: 690px;
+        margin-bottom: 8rem;
+    }
+
+    .background__hero{
+        height: 838px;
+    }
+
+    .botao__video{
+        margin-top: 200px;
+        margin-left: 120px;
+    }
+}
+

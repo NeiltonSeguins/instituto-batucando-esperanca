@@ -49,3 +49,10 @@
         margin: 0px auto;
     }
 }
+
+@media  only screen and (min-device-width: 1024px){    
+    .borda__batuqueiros {
+        width: 282px;
+        height: 420px;
+    }
+}

@@ -66,3 +66,44 @@
   }
 }
 
+@media  only screen and (min-device-width: 1024px){
+  #navbar{
+    display: inline-block;
+  }
+
+  .botao__cabecalho{
+    display: none;
+  }
+
+  .menu{
+    height: 84.922px;
+    width: 100%;
+    box-shadow: none;
+    padding-top: 0;
+    background: none;
+    position: relative;
+  }
+
+  .menu__item{
+    float: left;
+  }
+
+  .menu__lista{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .menu__link{
+    display: block;
+    color: #282828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu .close__menu{
+    display: none;
+  }
+}
