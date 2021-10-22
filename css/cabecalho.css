@@ -14,7 +14,7 @@
 
 .menu{
   position: fixed;
-  left: calc(360px - 150px);
+  left: calc(100% - 150px);
   top: 0;
   height: 100%;
   width: 150px;

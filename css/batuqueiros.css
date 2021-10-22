@@ -12,7 +12,7 @@
 
 .box__imagem-batuqueiros {
     max-width: 309px;
-    max-height: 250px;
+    max-height: 205px;
     overflow: hidden;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .descricao__batuqueiros {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -40,5 +40,12 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 48px;
+    }
+
+    .flex__batuqueiros {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 890px;
+        margin: 0px auto;
     }
 }
