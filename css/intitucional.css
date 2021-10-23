@@ -2,7 +2,7 @@
   background: linear-gradient(112.47deg, #18648E 35.74%, #C80BCA 130%);
   mix-blend-mode: multiply;
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 50vh;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@
   position: absolute;
   -webkit-mask-image: linear-gradient(to top, transparent 3%, black 200%);
   filter: brightness(80%);
-  width: 100vw;
+  width: 100%;
   height: 283px;
   margin: 0;
 }

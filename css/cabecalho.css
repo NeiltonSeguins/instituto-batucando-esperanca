@@ -1,4 +1,5 @@
 .cabecalho{
+  width: auto;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-top: 1.5rem;
@@ -67,6 +68,25 @@
 }
 
 @media  only screen and (min-device-width: 1024px){
+  .cabecalho{
+    width: 100vw;
+    max-width: 1100px;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 20px 128px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logo{
+    width: 20%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
   #navbar{
     display: inline-block;
   }
@@ -76,12 +96,14 @@
   }
 
   .menu{
-    height: 84.922px;
     width: 100%;
+    height: auto;
     box-shadow: none;
-    padding-top: 0;
+    padding: 0;
     background: none;
-    position: relative;
+    position: inherit;
+
+    display: flex;
   }
 
   .menu__item{
@@ -93,6 +115,10 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+
+    display: flex;
+    justify-content: flex-end;
+
   }
 
   .menu__link{
@@ -101,9 +127,27 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    Line-height: 21.94px;
+  }
+
+  .menu__link__contato{
+    font-weight: 400;
+    padding: 10px 44px;
+    border: 1px solid #282828;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .menu__link__contato:hover{
+    background-color: #BF1260;
+    color: wheat;
+    border-color: #BF1260;
   }
 
   .menu .close__menu{
     display: none;
   }
+
 }
