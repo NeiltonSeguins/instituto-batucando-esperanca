@@ -36,3 +36,27 @@
     height: 35px;
   }
 }
+
+@media only screen and (min-width: 1024px){
+  .rodape{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .facebook__icon, .twitter__icon, .instagram__icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .facebook__icon:hover, .twitter__icon:hover, .instagram__icon:hover{
+    color: #19597C;
+  }
+  .rodape__copyright{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: center;
+  }
+}
