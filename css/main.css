@@ -326,7 +326,7 @@
         display: block;
         font-size: 1rem;
         padding-top: 20px;
-
+        width: 100%;
         font-size: 18px;
         font-weight: 500;
     }
@@ -403,10 +403,11 @@
 
     .contato__endereco{
         width: 45%;
+        margin-left: 64px;
     }
 
     .contato__endereco i,.contato__endereco h3{
-        font-size: 28px;
+        font-size: 32px;
         font-weight: 100;
         color: #ffffff;
     }
@@ -416,15 +417,15 @@
 
     .contato__endereco___inf p{
         color:#ffffff;
-        font-size: 15px;
+        font-size: 24px;
         font-weight: normal;
     }
     .contato__iframe{
-        width: 45%;
+        width: 55%;
     }
     .contato__iframe___mapa{
-        width: 550px;
-        height: 294px;
+        width: 650px;
+        height: 394px;
     }
 
 }
