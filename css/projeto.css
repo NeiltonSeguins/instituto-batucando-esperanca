@@ -73,3 +73,13 @@
 .texto__projeto p{
     font-size: 20px;
 }
+
+@media  only screen and (min-device-width: 1024px){    
+    .container__projeto {
+        width: 100%;
+    }
+
+    .texto__projeto {
+        width: 411px;
+    }
+}
